@@ -1,17 +1,18 @@
 DGS Script Engine Notes:
 
 <E005> tag: Normal white text.
-<E006> tag: Red text (highlighting)
-<E007> tag: Blue text (thoughts)
-<E008> tag: Green text (Time/date/place)
-<SIZE x> tag: Set the text size, where x = size of font
-<RUBY><RB></RB><RT> tags: Unknown, related to pronounciation kana?
-<CNTR> tag: Center the text
-<COL xxxxxxxx> tag: Unknown, related to pronounciation kana? x = some unknown string of numbers
-<Exxx> tags greater than 8 or less than 4: Completely unknown.
-<Exxx y> tags: Completely unknown, where y is a number of unknown use. Often see in conjunction
-with Exxx numbers larger than 8.
-<PAGE> tag: Specify a new page.
+<E006> tag: Red text. (highlighting)
+<E007> tag: Blue text. (thoughts)
+<E008> tag: Green text. (Time/date/place)
+<E023> tag: Activate controls.
+<E025 X> tag: Text speed. X=1, fast. X=10, slow.
+<E041 0 X> tag: Type of text. X=68: normal, X=72: banging sound (date)
+<E333> tag: Ping and flash effect.
+<SIZE X> tag: Set the text size, where x = size of font.
+<RUBY><RB></RB><RT> tags: Pronounciation kana.
+<CNTR> tag: Center the text.
+<COL FFFFFFFF> tag: Specify a hex color.
+<PAGE> tag: Specify end of page.
 
 The largest number of English characters able to fit on one line in a 
 dialogue box without resizing is roughly 30. More than 120 characters
