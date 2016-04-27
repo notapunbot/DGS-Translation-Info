@@ -17,3 +17,6 @@ DGS Script Engine Notes:
 The largest number of English characters able to fit on one line in a 
 dialogue box without resizing is roughly 30. More than 120 characters
 on one page could possibly crash the game.
+
+To get around trying to squeeze a large amount of text onto one page, split it up
+between two pages.
